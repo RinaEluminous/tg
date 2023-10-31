@@ -1,0 +1,73 @@
+<!-- if input = 1 ,"y" ,"yes" output = continue...
+if input = 0 ,"n" ,"no" output = End... -->
+<script>
+let input;
+input ="y";
+
+// if(input ===1){ 
+//     console.log("continue...");
+// }else if(input ==="y"){
+//     console.log("continue...");
+// }else if(input ==="yes"){
+//     console.log("continue...");
+// }else if(input ===0){
+//     console.log("End...");
+// }else if(input ==="n"){
+//     console.log("End...");
+// }else if(input ==="n"){
+//     console.log("End...");
+// }else if(input ==="no"){
+//     console.log("End...");
+// }else{
+//     console.log("Wrong input");
+// }
+
+
+// Note:You can only use Switch case when you want to use strict comparison
+
+//=== comparison
+
+// switch(input){
+//     case 1: //if(input ===1)
+//     console.log("continue..");
+//     break;
+//     case "y": //if(input ===1)
+//     console.log("continue..");
+//     break;
+//     case "yes": //if(input ===1)
+//     console.log("continue..");
+//     break;
+//     case 0: //if(input ===1)
+//     console.log("End...");
+//     break;
+//     case "n": //if(input ===1)
+//     console.log("End...");
+//     break;
+//     case "no": //if(input ===1)
+//     console.log("End...");
+//     break;
+//     default:
+//     console.log("Wrong input");    
+
+// }
+
+
+//another way to use switch case
+
+switch(input){
+    case 1: //if(input ===1)
+    case "y": //if(input ===1)
+    case "yes": //if(input ===1)
+    console.log("continue..");
+    break;
+    case 0: //if(input ===1)
+    case "n": //if(input ===1)
+    case "no": //if(input ===1)
+    console.log("End...");
+    break;
+    default:
+    console.log("Wrong input");    
+
+}
+
+</script>
