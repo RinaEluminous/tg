@@ -3,7 +3,7 @@
     let greet ="hi"+str;
     console.log(greet);
 
-    // ***************************
+    // *************************** length and specific number***************************
 
     let strName ="Rina \" Pagare";
   
@@ -11,4 +11,72 @@
     console.log(strName.length);
     console.log(strName[4]);
 
-</script>
+    
+    // ***************************Concatenation***************************
+
+    let strName1 ="Rina";
+    let strName2 ="Pagare";
+
+    console.log(strName1 +" "+strName2);
+   
+ // ***************************if else***************************
+let strNew ="Rina";
+
+if('Rina'==strNew){
+console.log("equal");
+}else{
+    console.log("Not eual");
+}
+ // ***************************concat function use***************************
+ let str1 ="Rina";
+ let str2 ="Developer";
+ let str3= str1.concat(" ",str2);
+ console.log(str3);
+
+// ***************************substring function use***************************
+let str4 ="This is javascript tutorial.It is a good tutorial.";
+
+let substring =str4.substr(8,19);
+    //   19-length 
+    //    8-starting length 
+console.log(substring);
+
+// ***************************substring function use***************************
+let str5 ="This is javascript tutorial.It is a good tutorial.";
+
+let substring2 =str4.substring( 8 , 18);
+    //   19-position 
+    //    8-starting length 
+console.log(substring2);
+// ***************************Position***************************
+let str6 ="This is javascript tutorial.It is a good tutorial.";
+
+// let position =str6.indexOf('good');
+
+// let position =str6.indexOf('is',10);
+//    10 -search character after 10 length
+
+// let position =str6.lastIndexOf('is');
+
+// lastIndexOf it will search from last index
+
+let position =str6.indexOf('iss');
+
+// if word is not present in given string then it will return -1 value 
+
+console.log(position);
+
+// ***************************Removed white space***************************
+
+let str7 ="  This is javascript tutorial.It is a good tutorial.";
+
+
+// let trimedStr7 =str7.trim();
+
+let trimedStr7 =str7.trimStart();
+//let trimedStr7 =str7.trimEnd();
+
+console.log(str7);
+console.log(trimedStr7);
+
+</script>   
